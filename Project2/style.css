@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: slategray;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+ /* .movie-container select{
+    background-color: white;
+    border:0;
+    border-radius: 5px;
+    font-size:14px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}  */
