@@ -17,22 +17,8 @@ function showSuccess(input){
     const formControl=input.parentElement;
     formControl.className="form-control success";}
 
-//function to check if required  fields have data
-// function checkRequired (inputArray){
-//     inputArray.forEach(function(input){
-//         if (input.value===""){
-//             showError(input,`${input.id} is required`);
-//         }
-//         else{
-//             showSuccess(input);
-//         }
-//     });
 
-// }
-
-
-
-function getCaption(input){
+    function getCaption(input){
     const formControl = input.parentElement;
     const label = formControl.querySelector('label');
     return label.innerText;
@@ -46,7 +32,7 @@ function checkLength(input, minLen, maxLen){
 }
 function checkPasswordMatch(input1, input2){
     if(input1.value !== input2.value){
-        showError(input2, "Passowrd don't match.")
+        showError(input2, "Passwords don't match.")
     } 
 }
 function isValidEmail(email){
