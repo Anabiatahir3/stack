@@ -33,7 +33,7 @@ body {
 }
 .row{
     display: flex;
-}
+} 
 .seat.selected{
     background-color: aqua;
 }
@@ -94,6 +94,12 @@ p.text span{
     color:aqua;
     font-size: large;
 }
-p.text span:nth-of-type(2){
-    color:red;
+button{
+    width:50px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor:pointer;
+    background-color: black;
+    color:aqua;
 }
