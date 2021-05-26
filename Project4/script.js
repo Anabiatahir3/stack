@@ -26,7 +26,6 @@ fetch(`https://v6.exchangerate-api.com/v6/d0be6e831e1783513955ed52/pair/${curren
  const amount2 = new Intl.NumberFormat('en-US', { style: 'currency', currency: currencyTwoCode }).format((amountCurrencyOne.value * conversionRate).toFixed(2));
  // Updating DOM
  amountCurrencyTwo.value = amount2;
- console.log(amount2);
 
 });
  }; 

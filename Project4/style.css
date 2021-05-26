@@ -67,3 +67,11 @@ p {
 select:focus, input:focus, button:focus {
     outline: 0;}
 
+.rate{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: darkgreen;
+    background-color: lightgreen;
+    height:100px;
+}
