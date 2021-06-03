@@ -22,7 +22,7 @@ p {
     text-align: center;
 }
 
-.btn {
+.btn{
     color: white;
     background-color: darkgreen;
     cursor: pointer;
@@ -68,10 +68,19 @@ select:focus, input:focus, button:focus {
     outline: 0;}
 
 .rate{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     color: darkgreen;
     background-color: lightgreen;
     height:100px;
+
+}
+.ratelist{
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px 10px;
 }
