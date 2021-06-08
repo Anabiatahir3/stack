@@ -69,7 +69,7 @@ function sortByBalance() {
 // Function to sum all users balance into total balance
 function totalBalance() {
     // Update the DOM with new user data
-   // updateDOM();
+    updateDOM();
     // Add up all balance from all users
     // Accumulator starts at 0 and adds the current users balance for each iteration
     const balance = data.reduce((acc, user) => (acc += user.balance), 0);
