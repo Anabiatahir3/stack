@@ -66,10 +66,13 @@ h1 button#clear-cards {
 .card.left {
     transform: translateX(50%) rotateY(10deg);
 }
-
+.card.right{
+    transform:translateX(-50%) rotateY(10deg);
+}
 .card.active {
     opacity: 1;
     transform: translateX(0) rotateY(0deg);
+    z-index:10;
 }
 
 .card.show-answer .inside-card {
@@ -84,6 +87,7 @@ h1 button#clear-cards {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5 ease;
+    z-index:-1;
 }
 
 .card-front, .card-back {
@@ -148,10 +152,12 @@ h1 button#clear-cards {
     width: 100%;
     height: 100%;
     transition: 0.5 ease;
+    z-index: -1;
 }
 
 .add-card-container.active {
     opacity: 1;
+    z-index:0;
 }
 
 .add-card-container h1 {
