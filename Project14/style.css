@@ -52,7 +52,7 @@ h1 {
     background-color: #bdc3c7;
     padding: 20px;
     border-radius: 5px;
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 .custom-text.show {
